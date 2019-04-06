@@ -12,9 +12,9 @@ import org.apache.kafka.common.serialization.StringDeserializer;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-public class ComsumerDemo {
+public class ConsumerDemo {
 	public static void main(String args[]) {
-		final Logger logger = LoggerFactory.getLogger(ComsumerDemo.class);
+		final Logger logger = LoggerFactory.getLogger(ConsumerDemo.class);
 		String boostrapServers = "localhost:9092";
 		String groupId = "my_third_app";
 		String topic = "first_topic";
